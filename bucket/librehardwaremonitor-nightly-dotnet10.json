@@ -40,7 +40,7 @@
         "}"
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/LibreHardwareMonitor/LibreHardwareMonitor/actions/workflows/master.yml/runs?branch=master&status=success&workflow=master",
+        "url": "https://api.github.com/repos/LibreHardwareMonitor/LibreHardwareMonitor/actions/workflows/master.yml/runs?branch=master&status=success",
         "jsonpath": "$.workflow_runs[0].id"
     },
     "autoupdate": {
