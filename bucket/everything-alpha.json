@@ -4,6 +4,8 @@
     "homepage": "https://www.voidtools.com",
     "license": "MIT",
     "notes": [
+        "Note: Version 1.5 Alpha is no longer under development; to get the latest versions, switch to `everything-beta`.",
+        "You are responsible for migrating your data; consult the official guide for assistance, keeping in mind the differences in directory structures.",
         "To add Everything to right-click context menu, run:",
         "reg import \"$dir\\install-context.reg\""
     ],
