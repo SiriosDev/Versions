@@ -17,10 +17,6 @@
         "32bit": {
             "url": "https://www.voidtools.com/Everything-1.5.0.1408a.x86.zip",
             "hash": "d7e211b0c0126fdaa256099e6c6a204ec960f8777b173c11d0d1f1956365fe66"
-        },
-        "arm64": {
-            "url": "https://www.voidtools.com/Everything-1.5.0.1408a.ARM64.zip",
-            "hash": "786a799a301184a428492bd28abb699b99add9f834d10c821c030cf94d27b701"
         }
     },
     "pre_install": [
@@ -64,13 +60,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.voidtools.com/Everything-$version.x64.zip"
+                "url": "https://www.voidtools.com/Everything-1.5.0.$version.x64.zip"
             },
             "32bit": {
-                "url": "https://www.voidtools.com/Everything-$version.x86.zip"
-            },
-            "arm64": {
-                "url": "https://www.voidtools.com/Everything-$version.ARM64.zip"
+                "url": "https://www.voidtools.com/Everything-1.5.0.$version.x86.zip"
             }
         }
     }
