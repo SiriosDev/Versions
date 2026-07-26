@@ -13,5 +13,8 @@
             "Subtitle Edit 4"
         ]
     ],
-    "persist": "Settings.xml"
+    "persist": [
+        "Settings.xml",
+        "Dictionaries"
+    ]
 }
